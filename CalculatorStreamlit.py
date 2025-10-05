@@ -7,7 +7,7 @@ st.write("This app connects to a FastAPI calculator service.")
 
 # Define the API base URL
 
-api_url = "https://calculatorapi-d1kw.onrender.com"  # Update with your FastAPI server URL
+api_url = "https://fourcalculator.onrender.com"  # Update with your FastAPI server URL
 
 # Initialize session state to store the calculator display and current operation
 if 'display' not in st.session_state:
